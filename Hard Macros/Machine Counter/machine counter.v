@@ -1,5 +1,5 @@
 
-machine counter rtl
+
 `timescale 1ns / 1ps
 module machine_counter( input             clk_in,rst_in,wr_en_in,mcountinhibit_cy_in,mcountinhibit_ir_in,instret_inc_in,
 			input      [11:0] csr_addr_in,
