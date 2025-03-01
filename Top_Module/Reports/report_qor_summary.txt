@@ -1,0 +1,63 @@
+Information: Timer using 1 threads
+****************************************
+Report : qor
+        -summary
+Design : msrv32_top
+Version: T-2022.03-SP4
+Date   : Tue Feb 18 17:36:30 2025
+****************************************
+Warning: Corner default:  0 process number, 3 process label, 0 voltage, and 0 temperature mismatches. (PVT-030)
+Warning: 6700 cells affected for early, 6700 for late. (PVT-031)
+Warning: 0 port driving_cells affected for early, 0 for late. (PVT-034)
+Information: The stitching and editing of coupling caps is turned OFF for design 'risc_v:project_completed.design'. (TIM-125)
+Information: Design project_completed has 7072 nets, 0 global routed, 7070 detail routed. (NEX-024)
+Information: The RC mode used is DR for design 'msrv32_top'. (NEX-022)
+---extraction options---
+Corner: default
+ late_cap_scale                : 1
+ late_res_scale                : 1
+ early_cap_scale               : 1
+ early_res_scale               : 1
+Global options:
+ reference_direction       : use_from_tluplus
+ real_metalfill_extraction : none
+ virtual_shield_extraction : true
+---app options---
+ host.max_cores                   : 1
+ extract.connect_open           : true
+ extract.incremental_extraction : true
+ extract.enable_coupling_cap    : false
+Extracting design: project_completed 
+Information: coupling capacitance is lumped to ground. (NEX-030)
+Information: 6846 nets are successfully extracted. (NEX-028)
+Warning: Advanced receiver model has not been enabled for detailed routed design. (TIM-204)
+Information: Update timing completed net estimation for all the timing graph nets (TIM-111)
+Information: Net estimation statistics: timing graph nets = 6846, routed nets = 6846, across physical hierarchy nets = 0, parasitics cached nets = 6846, delay annotated nets = 0, parasitics annotated nets = 0, multi-voltage nets = 0. (TIM-112)
+************************************************************
+Timer Settings:
+Delay Calculation Style:                   auto
+Signal Integrity Analysis:                 disabled
+Timing Window Analysis:                    disabled
+Advanced Waveform Propagation:             disabled
+Variation Type:                            fixed_derate
+Clock Reconvergence Pessimism Removal:     enabled
+Advanced Receiver Model:                   disabled
+ML Acceleration:                           off
+************************************************************
+Information: Timer using 'CRPR'. (TIM-050)
+
+Timing
+---------------------------------------------------------------------------
+Context                                 WNS            TNS            NVE
+---------------------------------------------------------------------------
+Design             (Setup)             0.00           0.00              0
+
+Design             (Hold)              0.03           0.00              0
+---------------------------------------------------------------------------
+
+Miscellaneous
+---------------------------------------------------------------------------
+Cell Area (netlist):                          34593.10
+Cell Area (netlist and physical only):        35177.64
+Nets with DRC Violations:        0
+1
