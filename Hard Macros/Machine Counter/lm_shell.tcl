@@ -1,4 +1,4 @@
-create_workspace -technology ../../../dc_compiler/ref/tech/saed32nm_1p9m.tf -flow normal alu.ndm
+create_workspace -technology ../../../dc_compiler/ref/tech/saed32nm_1p9m.tf -flow normal machine_counter.ndm
 read_gds ../results/machine_counter.gds
 
 #checks the integrity of the workspace, possibly ensuring that all the necessary and configuration are properly loaded
