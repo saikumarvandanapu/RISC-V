@@ -1,0 +1,16 @@
+Information: The command 'report_congestion' cleared the undo history. (UNDO-016)
+****************************************
+Report : congestion
+Design : msrv32_top
+Version: T-2022.03-SP4
+Date   : Tue Feb 18 17:36:50 2025
+****************************************
+
+Layer     |    overflow     |              # GRCs has
+Name      |  total  |  max  | overflow (%)      | max overflow
+---------------------------------------------------------------
+Both Dirs |       0 |     0 |       0  ( 0.00%) |       0
+H routing |       0 |     0 |       0  ( 0.00%) |       0
+V routing |       0 |     0 |       0  ( 0.00%) |       0
+
+1
