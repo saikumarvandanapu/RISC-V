@@ -1,0 +1,16 @@
+Information: Timer using 'CRPR'. (TIM-050)
+****************************************
+Report : global timing
+        -format { narrow }
+Design : msrv32_top
+Version: T-2022.03-SP4
+Date   : Tue Feb 18 17:36:50 2025
+****************************************
+
+No setup violations found.
+
+
+No hold violations found.
+
+
+1
